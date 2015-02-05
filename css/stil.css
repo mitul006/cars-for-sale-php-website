@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#CCC fixed;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+h3{
+	text-transform:uppercase;
+}
+
+.main{
+	margin: 0px auto;
+	width: 1000px;
+	background-color:#F0F0F0;
+	border: solid 1px #00C;
+}
+
+#prviRedLink{
+	width: 1000px;
+	height:15px;
+	text-align:left;
+	border-bottom: solid 1px #00C;
+	padding-bottom: 7px;
+}
+
+#prviRedLink ul{
+	margin: 0px;
+	list-style: none;
+	padding-left:4px;
+}
+
+#prviRedLink li{
+	margin:0px;
+	display:inline;
+}
+
+#prviRedLink a{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#prviRedLink a:link{
+	color:#000;
+	text-decoration:none;
+	font-size:13px;
+}
+
+#prviRedLink a:visited{
+	color:#000;
+}
+
+#prviRedLink a:hover{
+	color:#CCC;
+}
+
+#drugiRedLink{
+	width: 1000px;
+	height:30px;
+	border-bottom: solid 1px #00C;
+	line-height:24px;
+	/*padding-bottom: 5px;
+	padding-top:2px;*/
+}
+
+#drugiRedLink td{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#drugiRedLink a{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#drugiRedLink a:link{
+	color:#000;
+	text-decoration:none;
+	font-size:13px;
+}
+
+#drugiRedLink a:visited{
+	color:#000;
+}
+
+#drugiRedLink a:hover{
+	color:#CCC;
+}
+
+#heder{
+	width:1000px;
+	height:150px;
+	background:url(../slike/logo.jpg);
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#treciRedLink{
+	width:1000px;
+	background:url(../slike/nastavak.jpg);
+	height: 40px;
+}
+
+#treciRedLink ul{
+	margin: 0px;
+	list-style: none;
+	padding-left:0px;
+	height:40px;
+}
+
+#treciRedLink li{
+	height:40px;
+	margin:0px;
+	display:inline;
+	line-height:40px;
+	color:#FFF;
+	font-weight:bolder;
+}
+
+#treciRedLink li a{
+	display:block; 
+	float:left; 
+	height:40px; 
+	line-height:40px; 
+	background:url(../slike/nastavak.jpg); 
+	color:#fff; 
+	text-decoration:none; 
+	font-size:13px; 
+	font-weight:bold; 
+	padding:0 20px 0 20px;
+}
+
+#treciRedLink a:link{
+	text-decoration:none;
+	font-size:13px;
+	height:40px;
+	margin:0px;
+	display:inline;
+	line-height:40px;
+	color:#FFF;
+	font-weight:bolder;
+	padding: 0 10px 0 10px;
+}
+
+#treciRedLink a:visited{
+	text-decoration:none;
+	font-size:13px;
+	height:40px;
+	margin:0px;
+	display:inline;
+	line-height:40px;
+	color:#FFF;
+	font-weight:bolder;
+	padding: 0 10px 0 10px;
+}
+
+#treciRedLink a:hover{
+	background:url(../slike/nastavak1.jpg);
+	text-decoration:none;
+	font-size:13px;
+	height:40px;
+	margin:0px;
+	display:inline;
+	line-height:40px;
+	color:#FFF;
+	font-weight:bolder;
+	padding: 0 10px 0 10px;
+}
+
+#oglas li{
+	text-align:center;
+	overflow:hidden;
+	width:124px;
+	height:132px;
+	padding:0 1px;
+	float:left;
+	margin:3px 4px 3px 0;
+	display:list-item;
+}
+
+#oglas ul{
+	list-style:none;
+}
+
+#pretrazivac{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	margin-top:15px;
+}
+
+#pretrazivac table{
+	text-align:center;
+	border:solid 1px #00C;
+	border-collapse:collapse;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#pretrazivac td{
+	width:180px;
+	height:25px;
+	padding-bottom:5px;
+}
+
+.container{
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-bottom: 5px;
+	margin-top:15px;
+	min-height:600px;
+	height:auto;
+}
+
+.containerSrednji{
+	width:600px;
+	margin: 0px auto;
+}
+
+.containerLevi{
+	width:190px;
+	float:left;
+	margin-left:2px;
+}
+
+.containerDesni{
+	width:190px;
+	float:right;
+	margin-right:5px;
+}
+
+.glavniOglas{
+	font-size:13px;
+	width:600px;
+}
+
+.konverzija{
+	width:190px;
+	/*height:190px;*/
+	margin-left:-2px;
+	margin-top:-2px;
+}
+
+.sat{
+	width:190px;
+	
+}
+
+.brojacPosete{
+	width:190px;
+	height:190px;
+	border:solid 1px #00C;
+	margin-top:5px;
+}
+
+.statistika{
+	width:190px;
+	height:190px;
+	border:solid 1px #00C;	
+	margin-top:5px;
+}
+
+#anketa{
+	width:190px;
+	height:190px;
+}
+
+.vreme{
+	width:190px;
+	height:190px;
+	border: solid 1px #00C;
+	margin-top:5px;
+}
+
+.najtrazeniji{
+	width:190px;
+	height:190px;
+	border: solid 1px #00C;
+	margin-top:5px;
+}
+
+#futer{
+	width:1000px;
+	height:15px;
+	background:url(../slike/nastavak1.jpg);
+	border-top:solid 2px #00C;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	text-align:center;
+}
+
+#livesearch{ 
+	margin:0px;
+	width:auto;
+	height:auto;
+	border:none;
+	margin-top:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+}
+
+#txt{
+	margin:0px;
+}
+
+#zauzetost{
+	width:auto;
+	height:auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	color:#0C0;
+}
+

@@ -1,0 +1,63 @@
+<definitions targetNamespace="urn:KonverzijaValuta">
+-
+<types>
+-
+<xsd:schema targetNamespace="urn:KonverzijaValuta">
+<xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+<xsd:import namespace="http://schemas.xmlsoap.org/wsdl/"/>
+</xsd:schema>
+</types>
+-
+<message name="RSDtoRSDRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="RSDtoRSDResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="RSDtoEURRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="RSDtoEURResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="RSDtoDOLRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="RSDtoDOLResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="EURtoRSDRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="EURtoRSDResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="EURtoEURRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="EURtoEURResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="EURtoDOLRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="EURtoDOLResponse">
+<part name="return" type="xsd:float"/>
+</message>
+-
+<message name="DOLtoRSDRequest">
+<part name="a" type="xsd:float"/>
+</message>
+-
+<message name="DOLtoRSDResponse">
